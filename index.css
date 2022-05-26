@@ -1,0 +1,543 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.light-invoice-empty-button-not-active {
+  position: absolute;
+  width: 550px;
+  height: 719px;
+  left: 155px;
+  top: 166px;
+
+  background: #ffffff;
+}
+
+.heading-rectangle {
+  position: absolute;
+  width: 550px;
+  height: 190px;
+  left: 0px;
+  top: 0px;
+
+  background: #f5f5f5;
+}
+.heading {
+  position: absolute;
+  width: 354px;
+  height: 40px;
+  left: 98px;
+  top: 59px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+
+  /* identical to box height, or 100% */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #2b283a;
+}
+
+.supporting-text {
+  position: absolute;
+  width: 408px;
+  height: 31px;
+  left: 71px;
+  top: 108px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  /* or 175% */
+  text-align: center;
+
+  color: #2b283a;
+}
+
+#wash-car-btn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 45px;
+  left: 38px;
+  top: 227px;
+
+  background: #ffffff;
+  border: 1px solid #d5d4d8;
+  border-radius: 7px;
+}
+#wash-car-btn-text {
+  /* Text */
+
+  width: 97px;
+  height: 16px;
+
+  /* text-sm/leading-4/font-medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* identical to box height, or 114% */
+
+  color: #4a4e74;
+}
+
+#mow-lawn-btn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 142.11px;
+  height: 45px;
+  left: 203.44px;
+  top: 227px;
+
+  background: #ffffff;
+  border: 1px solid #d5d4d8;
+  border-radius: 7px;
+}
+#mow-lawn-btn-text {
+  width: 107px;
+  height: 16px;
+
+  /* text-sm/leading-4/font-medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* identical to box height, or 114% */
+
+  color: #4a4e74;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#pull-weeds-btn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 45px;
+  left: 367.83px;
+  top: 227px;
+
+  background: #ffffff;
+  border: 1px solid #d5d4d8;
+  border-radius: 7px;
+}
+#pull-weeds-btn-text {
+  width: 109px;
+  height: 16px;
+
+  /* text-sm/leading-4/font-medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* identical to box height, or 114% */
+
+  color: #4a4e74;
+}
+
+#send-invoice-btn {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+
+  position: absolute;
+  width: 473px;
+  height: 44px;
+  left: 27px;
+  top: 622px;
+
+  background: #3770ed;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+}
+#send-invoice-btn-text {
+  /* width: 98px;
+  height: 24px; */
+
+  /* text-base/leading-6/font-medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* white */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#invoice-icon {
+  box-sizing: border-box;
+  width: 30px;
+  position: absolute;
+  left: 32%;
+  top: 29%;
+}
+#task-text {
+  position: absolute;
+  width: 95px;
+  height: 22px;
+  left: 39px;
+  top: 315px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+
+  /* or 167% */
+
+  color: #918e9b;
+}
+#total-text {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 432px;
+  top: 319px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+
+  /* or 167% */
+  text-align: right;
+
+  color: #918e9b;
+}
+#div-line {
+  position: absolute;
+  width: 471px;
+  height: 0px;
+  left: 39px;
+  top: 494px;
+
+  border: 1px solid #c3c6db;
+}
+#notes-text {
+  position: absolute;
+  width: 105px;
+  height: 28px;
+  left: 39px;
+  top: 505px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+
+  /* or 267% */
+
+  color: #918e9b;
+}
+#total-amount {
+  position: absolute;
+  width: 105px;
+  height: 28px;
+  left: 405px;
+  top: 505px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+
+  /* or 267% */
+  text-align: right;
+
+  color: #918e9b;
+}
+#dollar-amount {
+  position: absolute;
+  width: 105px;
+  height: 28px;
+  left: 405px;
+  top: 544px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+
+  /* or 89% */
+  text-align: right;
+
+  color: #4a4e74;
+}
+/* make button clickable animation */
+.button-click {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button-click:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#service-1 {
+  position: absolute;
+  width: 97px;
+  height: 21px;
+  left: 39px;
+  top: 353px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+
+  /* or 100% */
+
+  color: #4a4e74;
+}
+#total-item-1 {
+  position: absolute;
+  width: 71px;
+  height: 21px;
+  left: 441px;
+  top: 354px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 20px;
+
+  /* or 83% */
+  text-align: right;
+
+  color: #918e9b;
+}
+#remove-text-1 {
+  position: absolute;
+  width: 31px;
+  height: 20px;
+  left: 151px;
+  top: 354px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 20px;
+
+  /* identical to box height, or 250% */
+
+  color: #918e9b;
+}
+#service-2 {
+  position: absolute;
+  width: 106px;
+  height: 21px;
+  left: 39px;
+  top: 398px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+
+  /* or 100% */
+
+  color: #4a4e74;
+}
+
+#total-item-2 {
+  position: absolute;
+  width: 71px;
+  height: 21px;
+  left: 441px;
+  top: 399px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 20px;
+
+  /* or 83% */
+  text-align: right;
+
+  color: #918e9b;
+}
+#service-3 {
+  position: absolute;
+  width: 109px;
+  height: 20px;
+  left: 39px;
+  top: 442px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+
+  /* identical to box height, or 100% */
+
+  color: #4a4e74;
+}
+#total-item-3 {
+  position: absolute;
+  width: 71px;
+  height: 21px;
+  left: 441px;
+  top: 443px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 20px;
+
+  /* or 83% */
+  text-align: right;
+
+  color: #918e9b;
+}
+#payment-methods-note {
+  position: absolute;
+  width: 218px;
+  height: 15px;
+  left: 38px;
+  top: 544px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  /* identical to box height, or 125% */
+
+  color: #4a4e74;
+}
+
+#remove-service-1 {
+  position: absolute;
+  width: 31px;
+  height: 20px;
+  left: 151px;
+  top: 354px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 20px;
+
+  /* identical to box height, or 250% */
+
+  color: #918e9b;
+}
+#remove-service-2 {
+  position: absolute;
+  width: 31px;
+  height: 20px;
+  left: 160px;
+  top: 399px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 20px;
+
+  /* identical to box height, or 250% */
+
+  color: #918e9b;
+}
+#remove-service-3 {
+  position: absolute;
+  width: 31px;
+  height: 20px;
+  left: 163px;
+  top: 442px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 20px;
+
+  /* identical to box height, or 250% */
+
+  color: #918e9b;
+}
+/* make text clickable pointer */
+
+.clickable-text {
+  cursor: pointer;
+}
